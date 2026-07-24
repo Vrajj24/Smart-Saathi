@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  A gamified, offline-friendly educational platform for underprivileged students in Grades 1–10 across India.
+  A gamified, offline-friendly educational frontend platform for underprivileged students in Grades 1–10 across India.
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@ Smart-Saathi is a **100% free** educational web platform built to bridge the dig
 ### 🔐 Authentication
 - **Sign In / Sign Up** modal with form validation
 - Fields: Name, Age, Grade, Username, Password
-- Demo login available out-of-the-box (no backend required)
+- Demo client-side session authentication
 
 ### 📊 Dashboard
 - Personalised welcome with student name and grade
@@ -91,7 +91,6 @@ Smart-Saathi is a **100% free** educational web platform built to bridge the dig
 ### ❓ Help & FAQ
 - Category-wise FAQ: Getting Started, Technical Issues, Account & Profile, Learning Content
 - Expandable accordion answers
-- Contact info: `contact@smart-saathi.org`
 - Available **pre-login** and post-login
 
 ---
@@ -107,7 +106,7 @@ Smart-Saathi is a **100% free** educational web platform built to bridge the dig
 | Language | JavaScript (JSX) |
 | Linting | ESLint 9 + `eslint-plugin-react-hooks` |
 
-> **Frontend-only**: There is no backend or database. Authentication is currently demo/local state only.
+> **Pure Frontend**: This repository contains the complete frontend application. All UI states, mock data, and interactions run entirely on the client side.
 
 ---
 
@@ -188,8 +187,6 @@ npm run lint       # Run ESLint checks
 
 ## 🗺️ Roadmap
 
-- [ ] Backend integration (Node.js / Firebase) for persistent user accounts
-- [ ] Real progress & quiz score persistence
 - [ ] Offline mode with service workers (PWA)
 - [ ] Hindi-language UI toggle
 - [ ] Parent / Teacher dashboard view
@@ -198,36 +195,12 @@ npm run lint       # Run ESLint checks
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add: your feature description'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
-You can also contribute by:
-- Volunteering as a **mentor or content creator**
-- **Partnering** with us to reach more communities
-- **Sharing** Smart-Saathi with students who need it
-
----
-
-## 📬 Contact & Support
+## 📬 Links & Support
 
 | Channel | Details |
 |---|---|
-| Email | [contact@smart-saathi.org](mailto:contact@smart-saathi.org) |
 | Demo Video | [YouTube](https://youtu.be/0tXCKE3RCcM) |
 | Issues | [GitHub Issues](https://github.com/Vrajj24/Smart-Saathi/issues) |
-
----
-
-## 📄 License
-
-This project is open-source. Feel free to use, modify, and distribute it to help make education more accessible.
 
 ---
 
